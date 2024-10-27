@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodJo Restaurant Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+    <header>
+        <div class="logo">FoodJo</div>
+        
+        
+
+        <nav id="nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <div class="auth-buttons">
+            <button class="btn sign-in">Sign In</button>
+            <button class="btn btn-primary">Sign Up</button>
+
+        <!-- Cart Icon with Counter -->
+        <div class="cart-icon">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="cart-count">0</span>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+     </div>
+
+      </header>
+    </div>
+<main>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+           <h1>Order Your Best Food Anytime</h1>
+           <p>Hey, our delicious food is waiting for you,
+             We are always near to you with fresh items of food.</p>
+           <button class="btn btn-primary">Learn More</button> 
+     </div>
+        <div class="hero-image">
+            <img src="1.png" alt="delicious food " id="heroImage">
+        </div>
+    </section>
+
+    <!-- Popular Dishes Section -->
+    <section class="popular-dishes">
+        <h2>Popular Dishes</h2>
+        
+        <div class="dishes">
+
+               <div class="dish" data-img="2.png">
+               <img src="2.png" alt=" burger ki photo">
+               <h3>Beef Burger</h3>
+                <p>Onion with cheese</p>
+                <span class="price">$24.00</span>
+                <button class="add-to-cart" data-name="burger" data-price="$24.00">
+                <i class=" fas fa-plus"></i>
+                </button>
+               </div>
+
+                <div class="dish" data-img="3.png">
+                <img src="3.png" alt=" burger ki photo">
+                <h3>French Fries</h3>
+                <p>Potato wedges</p>
+                <span class="price">$13.00</span>
+                <button class="add-to-cart" data-name="french" data-price="$13.00">
+                    <i class=" fas fa-plus"></i>
+                </button>
+                </div>
+
+                 <div class="dish" data-img="4.png">
+                    <img src="4.png" alt=" burger ki photo">
+                    <h3>Chicken</h3>
+                    <p>Roasted chicken</p>
+                    <span class="price">$17.99</span>
+                    <button class="add-to-cart" data-name="chickan" data-price="$17.99">
+                        <i class=" fas fa-plus"></i>
+                    </button>
+                    </div>
+
+                    <div class="dish" data-img="5.png">
+                        <img src="5.png" alt=" burger ki photo">
+                        <h3>Fried Chicken</h3>
+                        <p>Crispy fried chicken</p>
+                        <span class="price">$17.00</span>
+                        <button class="add-to-cart" data-name="fried chickan" data-price="$17.00">
+                            <i class=" fas fa-plus"></i>
+                      </button>
+                 </div>   
+             </div>
+     </section>
+ </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
